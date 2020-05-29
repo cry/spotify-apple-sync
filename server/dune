@@ -1,0 +1,4 @@
+(executable
+ (name spotify_apple_sync_server)
+ (libraries core async)
+ (preprocess (pps ppx_jane)))
